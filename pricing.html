@@ -1007,49 +1007,76 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- ═══════════ SUBSCRIPTION → Navy (Premium Section) ═══════════ -->
 <section class="subscription" id="subscription">
   <div class="container">
-    <div class="sub-inner">
-      <div class="sub-content fade-up">
-        <span class="sub-label-tag">🔥 Revenue Engine · Best Value Plan · Most Popular</span>
-        <h2>Best Value Plan <span style="-webkit-text-fill-color:#f590c4;">(Most Popular)</span></h2>
-        <p class="sub-tagline">Save every month while keeping your clothes fresh.</p>
-        <div class="sub-deal">
-          <div class="sub-price">$50<span style="font-size:16px;-webkit-text-fill-color:rgba(255,255,255,.5)">/mo</span></div>
-          <div class="sub-arrow">→</div>
-          <div class="sub-credit-block"><div class="num">$65</div><div class="lbl">cleaning credit</div></div>
-        </div>
-        <ul class="sub-features">
-          <li>Pay $50</li>
-          <li>Get $65 credit every month</li>
-          <li>Works for dry cleaning + laundry + pickup</li>
-          <li>Perfect for families &amp; professionals</li>
-        </ul>
-        <p class="sub-minimum">Minimum: 3 months</p>
+    <div class="sub-card fade-up">
 
-        <!-- Why Customers Love It from doc -->
-        <div class="sub-why">
-          <h4>🔥 Why Customers Love It</h4>
-          <ul>
-            <li>Saves money every month</li>
-            <li>No last-minute cleaning stress</li>
-            <li>Ideal for pickup &amp; delivery users</li>
-            <li>Predictable monthly budget</li>
-          </ul>
-        </div>
+      <!-- Top Badge -->
+      <div class="sub-top-badge">
+        <span class="sub-crown">👑</span>
+        <span class="sub-badge-top">MOST POPULAR</span>
+        <span class="sub-badge-main">SAVE 30%</span>
+        <span class="sub-badge-bottom">BEST VALUE</span>
+      </div>
 
-        <!-- CTA Row from doc -->
-        <div class="sub-cta-row">
-          <a href="#pricing-top" class="btn btn-gradient btn-lg" onclick="trackCTA('subscription','Start $50 Subscription')">💰 Start $50 Subscription</a>
-          <a href="/pickup-delivery-dfw/" class="btn btn-white-outline btn-lg" onclick="trackCTA('subscription','Add to Pickup Order')">🚚 Add to Pickup Order</a>
+      <!-- Hat + Label -->
+      <div class="sub-hat-row">
+        <div class="sub-hat-lines"><span></span><span class="sub-hat-icon">🎩</span><span></span></div>
+        <p class="sub-eyebrow">REVENUE ENGINE &nbsp;•&nbsp; SAVE MORE</p>
+      </div>
+
+      <!-- Main Heading -->
+      <h2 class="sub-heading">Best Value Plan (Most Popular)</h2>
+
+      <!-- Price Row -->
+      <div class="sub-price-row">
+        <div class="sub-price-left">
+          <span class="sub-price-num">$50</span><span class="sub-price-mo">/mo</span>
+          <p class="sub-price-label">Monthly Membership</p>
+        </div>
+        <div class="sub-price-arrow">→</div>
+        <div class="sub-price-right">
+          <span class="sub-credit-num">$65</span>
+          <p class="sub-price-label">Cleaning Credit</p>
         </div>
       </div>
 
-      <div class="sub-visual fade-up" style="transition-delay:.15s">
-        <div class="sub-visual-icon">🎩</div>
-        <h3>Monthly Membership</h3>
-        <p>Pay $50 · Get $65 in cleaning credit · Every month</p>
-        <div class="sub-saving">~30% Savings</div>
-        <div class="sub-saving-label">Every single month</div>
+      <div class="sub-divider"></div>
+
+      <!-- Features -->
+      <div class="sub-features-row">
+        <div class="sub-feature-item">
+          <div class="sub-feature-icon">🏠</div>
+          <div>
+            <p class="sub-feature-title">Ideal for Busy Households</p>
+            <p class="sub-feature-desc">Perfect for families and professionals</p>
+          </div>
+        </div>
+        <div class="sub-feature-divider"></div>
+        <div class="sub-feature-item">
+          <div class="sub-feature-icon">🛡️</div>
+          <div>
+            <p class="sub-feature-title">Consistent Monthly Savings</p>
+            <p class="sub-feature-desc">Predictable budget, reliable savings</p>
+          </div>
+        </div>
       </div>
+
+      <div class="sub-divider"></div>
+
+      <!-- Big Savings -->
+      <div class="sub-savings-row">
+        <span class="sub-savings-num">30%</span>
+        <div class="sub-savings-text">
+          <span class="sub-savings-label">Savings</span>
+          <span class="sub-savings-sub">Every Single Month</span>
+        </div>
+      </div>
+
+      <!-- CTA Button -->
+      <a href="#pricing-top" class="sub-cta-btn" onclick="trackCTA('subscription','Start Saving Today')">🎁 Start Saving Today &nbsp;›</a>
+
+      <!-- Fine Print -->
+      <p class="sub-fine-print">🔒 Cancel anytime &nbsp;•&nbsp; No commitments</p>
+
     </div>
   </div>
 </section>
